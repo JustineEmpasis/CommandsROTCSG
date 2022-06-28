@@ -31,7 +31,7 @@ Happy Pawning!
 Simply install to your project:
 
 ```bash
-sampctl package install Dev-Zulan/rotc-gm
+sampctl package install JustineEmpasis/CommandsROTCSG
 ```
 
 Include in your code and begin using the library:
