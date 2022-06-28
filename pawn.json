@@ -1,0 +1,70 @@
+{
+	"user": "Dev-Zulan",
+	"repo": "rotc-gm",
+	"entry": "src/main.pwn",
+	"output": "gamemodes/rotc-gm.amx",
+	"local": true,
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"plugins": [
+			"sscanf",
+			"sampvoice"
+		],
+		"rcon_password": "password",
+		"port": 7777,
+		"hostname": "| Commands | ROTC Simulation Game",
+		"maxplayers": 50,
+		"language": "Filipino/Cebuano",
+		"mapname": "MSU-IIT",
+		"weburl": "discord.gg/Yppe6EaBxD",
+		"gamemodetext": "ROTCSG v0.1",
+		"announce": true,
+		"lanmode": false,
+		"query": true,
+		"rcon": false,
+		"logqueries": false,
+		"sleep": 5,
+		"maxnpc": 1,
+		"stream_rate": 1000,
+		"stream_distance": 200,
+		"onfoot_rate": 30,
+		"incar_rate": 30,
+		"weapon_rate": 30,
+		"chatlogging": true,
+		"timestamp": true,
+		"messageholelimit": 3000,
+		"messageslimit": 500,
+		"ackslimit": 3000,
+		"playertimeout": 10000,
+		"minconnectiontime": 0,
+		"lagcompmode": 1,
+		"connseedtime": 300000,
+		"db_logging": false,
+		"db_log_queries": false,
+		"conncookies": true,
+		"cookielogging": false,
+		"output": true
+	},
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes@5.x",
+		"pBlueG/SA-MP-MySQL:R41-4",
+		"samp-incognito/samp-streamer-plugin:v2.9.5",
+		"Zeex/samp-plugin-crashdetect:v4.20",
+		"IllidanS4/PawnPlus:v1.4.0.1",
+		"Sreyas-Sreelal/samp-bcrypt:0.3.4",
+		"dakyskye/pawn-env:1.1.1",
+		"TommyB123/eSelection:1.1.0"
+	],
+	"builds": [
+		{
+			"name": "main",
+			"includes": [
+				"legacy/sscanf",
+				"legacy/sampvoice"
+			],
+			"compiler": {}
+		}
+	]
+}
